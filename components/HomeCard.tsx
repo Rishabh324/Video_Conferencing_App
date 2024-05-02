@@ -1,4 +1,5 @@
 "use client"
+import { cn } from '@/lib/utils'
 import Image from 'next/image'
 import React from 'react'
 
@@ -12,7 +13,7 @@ interface HomeCardProps {
 
 const HomeCard = ({title, description, color, img, handleClick}: HomeCardProps) => {
     return (
-        <div className={`bg-${color}-1 px-4 py-6 flex flex-col justify-between w-full xl:max-w-[270px] min-h-[260px] rounded-[14px] cursor-pointer`} onClick={handleClick}>
+        <div className={cn('px-4 py-6 flex flex-col justify-between w-full xl:max-w-[270px] min-h-[260px] rounded-[14px] cursor-pointer', `bg-${color}-1`)} onClick={handleClick}>
             <div className='flex-center glassmorphism size-12 rounded-[10px]'>
                 <Image
                     src={img}
