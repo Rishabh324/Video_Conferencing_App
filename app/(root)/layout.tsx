@@ -4,7 +4,7 @@ import StreamVideoProvider from '@/providers/StreamClientProvider';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "VidConf: Conferencing Application",
+  title: "FlowMeet: FlowHub Conferencing Application",
   description: "Video Calling App",
   icons: {
     icon: '/icons/logo.svg'

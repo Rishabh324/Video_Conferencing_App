@@ -15,14 +15,13 @@ const Navbar = () => {
                 alt='logo'
                 className='max:sm-size-10'
             />
-            <p className='text-[26px] font-extrabold text-white max-sm:hidden'>VidConf</p>
+            <p className='text-[26px] font-extrabold text-white max-sm:hidden'>FlowMeet</p>
         </Link>
         <div className='flex flex-between gap-5'>
-            <SignedIn>
+          <SignedIn>
             <UserButton afterSignOutUrl="/sign-in" />
-            </SignedIn>
-            <MobileNav />
-
+          </SignedIn>
+          <MobileNav />
         </div>
     </nav>
   )
