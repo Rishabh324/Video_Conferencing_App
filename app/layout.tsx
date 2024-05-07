@@ -4,11 +4,12 @@ import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
 import { Toaster } from "@/components/ui/toaster"
 import '@stream-io/video-react-sdk/dist/css/styles.css';
+import 'react-datepicker/dist/react-datepicker.css'
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "VidConf: Conferencing Application",
+  title: "FlowMeet: FlowHub Conferencing Application",
   description: "Video Calling App",
   icons: {
     icon: '/icons/logo.svg'
