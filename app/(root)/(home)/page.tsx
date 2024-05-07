@@ -1,7 +1,5 @@
 "use client"
 import MeetingTypeList from '@/components/MeetingTypeList';
-import { useGetCalls } from '@/hooks/useGetCalls';
-import { useEffect } from 'react';
 
 const Home = () => {
   const now = new Date();
