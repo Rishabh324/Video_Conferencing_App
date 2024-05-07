@@ -3,9 +3,10 @@
 import { useUser } from "@clerk/nextjs";
 import { useStreamVideoClient } from "@stream-io/video-react-sdk";
 import { useRouter } from "next/navigation";
+
+import { useGetCallById } from "@/hooks/useGetCallById";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/components/ui/use-toast";
-import { useGetCallById } from "@/hooks/useGetCallById";
 
 const Table = ({
   title,
